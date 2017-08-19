@@ -32,10 +32,10 @@ git config --list
 ```
 
 ### Getting an existing repository
-Say you want to pull down Intel Snap, you would go to the github page, https://github.com/intelsdi-x/snap, click clone or download, pick HTTPS or SSH and copy the link. For HTTPS you can just add .git to the URL `https://github.com/intelsdi-x/snap.git`.
+To clone this respository, click the green clone or download button above, pick HTTPS or SSH and copy the link. For HTTPS you can just add .git to the URL `https://github.com/intelsdi-x/snap.git`.
 ![git-clone](https://cloud.githubusercontent.com/assets/12282848/16968258/8f066e18-4dc2-11e6-9171-92b4b76f8590.png)
 
-After copying the link, go to the path you want to clone this to. For organization it is more clear when there are separate directories for different repo owners.
+After copying the link, go to the path on your own computer that you want to clone this to. For organization it is more clear when there are separate directories for different repo owners.
 
 ### Making a new branch
 Say you want to make changes on a branch other than master. This is common when wanting to separate different changes. If you want to have the exact
