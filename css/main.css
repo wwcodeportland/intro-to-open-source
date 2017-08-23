@@ -9,12 +9,13 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 html {
-    color: #222;
+    color: pink;
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Arial';
+    font-family: 'Indie Flower', cursive;
 }
 
 /*
