@@ -31,9 +31,10 @@ To see what configuration settings you have:
 git config --list
 ```
 
-### Getting an existing repository
-To clone this respository, click the green clone or download button aboveand copy the link.
-![git-clone](https://cloud.githubusercontent.com/assets/12282848/16968258/8f066e18-4dc2-11e6-9171-92b4b76f8590.png)
+### Clone and fork this repo
+Before contributing, fork this repo by pressing the "Fork" button inside the Women Who Code repo. This will create your own version of the repo.
+
+To clone the respository down to your laptop, click the green clone or download button above and copy the link.
 
 After copying the link, go to the path on your own computer that you want to clone this to. For organization it is more clear when there are separate directories for different repo owners.
 
@@ -41,6 +42,12 @@ After copying the link, go to the path on your own computer that you want to clo
 Say you want to make changes on a branch other than master. This is common when wanting to separate different changes. If you want to have the exact
 
 ### Pulling down new content
+In your terminal, run `git remote -v` to see all of your remotes. Add the Women Who Code repo as an upstream that you can pull from by adding the following:
+
+`git remote add git@github.com:wwcodeportland/intro-to-open-source.git`
+
+This will allow you to fetch the most recent changes from upstream.
+
 * `git fetch`: fetches the changes, but doesn't merge them
 * `git pull`: does `git fetch` and `git merge`. This results in an [extra commit](https://coderwall.com/p/7aymfa/please-oh-please-use-git-pull-rebase).
 * `git pull --rebase`: leaves your commits in a straight line without branches
@@ -56,8 +63,6 @@ Click the button at the top that says "Pull Requests" and then the green button 
 If the pull request (PR) is to fix an existing issue, you can reference it by `#somenumber`, e.g. `#2`. It's common to say "Fixes #somenumber" so when the PR is merged, it closes the corresponding issue.
 
 *Tip: Include the issue the PR fixes in the commit message and have descriptive messages.*
-
-### 
 
 ### Resources
 Great websites for people who are new to coding/contributing to open source:
