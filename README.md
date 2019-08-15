@@ -36,7 +36,7 @@ Before contributing, fork this repo by pressing the "Fork" button inside the Wom
 
 To clone the respository down to your laptop, click the green clone or download button above and copy the link.
 
-After copying the link, go to the path on your own computer that you want to clone this to. For organization it is more clear when there are separate directories for different repo owners.
+After copying the link, go to the path on your own computer that you want to clone this to. For organization, it is more clear when there are separate directories for different repo owners.
 
 ### Making a new branch
 Say you want to make changes on a branch other than master. This is common when wanting to separate different changes. If you want to have the exact
