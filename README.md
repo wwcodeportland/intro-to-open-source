@@ -13,6 +13,7 @@ This repo is for our Women Who Code 2017 Intro to Contributing to Open Source Wo
 In the `Issues` tab, we have a variety of issues with different labels that you can choose. Choose from any of the labels and submit a PR with your changes. We'll review your PR and conduct a mock code review, before ultimately merging your PR. 
 
 If you have any questions about working in existing open source libraries, open a new issue!
+Hello!
 
 ## Git Config
 First you should tell git your name and email (You can set specific ones for different repositories if you wish.). So if you're Scott Hanselman, you'd do it like this:
