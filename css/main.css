@@ -12,9 +12,9 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
 html {
-    color: pink;
+    color: purple;
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.75;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -97,7 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+h1{
+color: magenta;
+background-color: navy;
+}
 
 
 
