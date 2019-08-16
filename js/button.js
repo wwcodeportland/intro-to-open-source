@@ -15,3 +15,7 @@ body.appendChild(button);
 button.addEventListener ("clock", function() {
   alert("did something");
 });
+
+//create button2
+var button = document.createElement("button");
+button.innerHTML = "Click Me";
