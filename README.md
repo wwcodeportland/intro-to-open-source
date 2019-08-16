@@ -2,7 +2,7 @@
 
 This repo is for our Women Who Code 2017 Intro to Contributing to Open Source Workshop. This repo serves as a safe test space for those who wish to practice git, making pull requests and responding to issues.
 
-## Workshop Agenda
+## Workshop Agenda (making a nonsense change - pls ignore)
  - Overviewing GitHub and Releases
  - Reviewing the Basics and Learning a Codebase
  - Your First Open Source Project Commit (look for First Timer's Only PRs)
