@@ -1,6 +1,6 @@
 # Workshop: Intro to Open Source 🚀
 
-This repo is for our Women Who Code 2017 Intro to Contributing to Open Source Workshop. This repo serves as a safe test space for those who wish to practice git, making pull requests and responding to issues.
+This repo is for our Women Who Code 2019 Intro to Contributing to Open Source Workshop. This repo serves as a safe test space for those who wish to practice git, making pull requests and responding to issues.
 
 ## Workshop Agenda
  - Overviewing GitHub and Releases
@@ -15,10 +15,10 @@ In the `Issues` tab, we have a variety of issues with different labels that you 
 If you have any questions about working in existing open source libraries, open a new issue!
 
 ## Git Config
-First you should tell git your name and email (You can set specific ones for different repositories if you wish.). So if you're Scott Hanselman, you'd do it like this:
+First you should tell git your name and email (You can set specific ones for different repositories if you wish.). So if you're Keeley Hammond, you'd do it like this:
 ```
-git config --global user.name "Scott Hanselman"
-git config --global user.email scott@hanselman.com
+git config --global user.name "Keeley Hammond"
+git config --global user.email keeley@keeleyhammond.com
 ```
 
 If you want to set up a default editor you can set it using:
@@ -36,10 +36,25 @@ Before contributing, fork this repo by pressing the "Fork" button inside the Wom
 
 To clone the respository down to your laptop, click the green clone or download button above and copy the link.
 
-After copying the link, go to the path on your own computer that you want to clone this to. For organization it is more clear when there are separate directories for different repo owners.
+After copying the link, go to the path on your own computer that you want to clone this to. For organization, it is more clear when there are separate directories for different repo owners.
 
 ### Making a new branch
-Say you want to make changes on a branch other than master. This is common when wanting to separate different changes. If you want to have the exact
+Say you want to make changes on a branch other than master. This is common when wanting to separate different changes.
+
+You can make a new branch for fixing a README, for example, using:
+```
+git checkout -b fix-readme
+```
+
+The `-b` flag lets git know that this is a new branch being created. In addition to creating a new branch, you can navigate to different existing branches using the same checkout command, without the flag:
+```
+git checkout master
+```
+
+To access your fix-readme branch again, use:
+```
+git checkout fix-readme
+```
 
 ### Pulling down new content
 In your terminal, run `git remote -v` to see all of your remotes. Add the Women Who Code repo as an upstream that you can pull from by adding the following:
