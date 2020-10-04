@@ -12,6 +12,6 @@ var body = document.getElementsByTagName("body")[0];
 body.appendChild(button);
 
 // 3. Add event handler
-button.addEventListener ("clock", function() {
+button.addEventListener ("click", function() {
   alert("did something");
 });
