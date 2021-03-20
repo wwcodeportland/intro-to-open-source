@@ -1,5 +1,6 @@
 # Workshop: Intro to Open Source 🚀
-
+#Our wonderful ReadMe
+#Welcome everyone to our ReadMe,
 This repo is for our Women Who Code 2019 Intro to Contributing to Open Source Workshop. This repo serves as a safe test space for those who wish to practice git, making pull requests and responding to issues.
 
 ## Workshop Agenda
@@ -94,3 +95,4 @@ Great websites for people who are new to coding/contributing to open source:
 ## Contributing to an Open Source Project 
 * [Open Source Guides](https://opensource.guide)
 * [Course from egghead.io: How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+## The following Readme looks better than the old one and I would Like to appreciate all of you
